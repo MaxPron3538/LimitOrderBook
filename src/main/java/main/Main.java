@@ -18,26 +18,6 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
 
-        //for(int i = 1;i < 1000000;i++){
-            /*
-            if(i % 500 == 0) {
-                Files.write(Path.of(inputPath), ("q,size," + (int)(Math.random()*i) + "\n").getBytes(), StandardOpenOption.APPEND);
-            }
-            else if(i % 600 == 0) {
-                Files.write(Path.of(inputPath), ("q,best_bid" + "\n").getBytes(), StandardOpenOption.APPEND);
-            }
-            else if(i % 350 == 0) {
-                Files.write(Path.of(inputPath), ("o,sell,"+(int)(Math.random()*i) + "\n").getBytes(), StandardOpenOption.APPEND);
-            }
-            */
-          /*if(i % 3 == 0) {
-                Files.write(Path.of(inputPath), ("u," + (int)(Math.random()*i) + "," + (int)(Math.random()*i) + ",bid" + "\n").getBytes(), StandardOpenOption.APPEND);
-            }else{
-                Files.write(Path.of(inputPath),("u,"+i+","+i+",bid"+"\n").getBytes(),StandardOpenOption.APPEND);
-            }
-        }
-           */
-
         long start = System.currentTimeMillis();
 
         BufferedReader reader = new BufferedReader(new FileReader(inputPath));
